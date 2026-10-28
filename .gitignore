@@ -1,0 +1,24 @@
+@"
+# Sanal Ortamlar
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+__pycache__/
+*.pyc
+
+# Model ve Ağırlık Dosyaları
+*.pt
+*.task
+*.onnx
+*.weights
+*.bin
+
+# Geçici ve Çıktı Dosyaları
+*.mp4
+*.avi
+*.jpg
+*.png
+runs/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
